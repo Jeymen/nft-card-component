@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.card {
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 0.600em;
+    max-width: 20em;
+    padding: 0.9375em;
+}
+
+.name {
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    padding: 0em;
+    margin-top: 1em;
+}
+
+.name:hover {
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
+
+.description {
+    color: hsl(215, 51%, 70%);
+    font-size: 1.125em;
+    font-weight: 300;
+    font-family: 'Outfit', sans-serif;
+    padding: 0em;
+    margin: 0em;
+    margin-bottom: 1.67em;
+}
+
+.image {
+    display: block;
+    max-width: 100%;
+    border-radius: 0.500em;
+}
+
+.attribution {
+    display: flex;
+    gap: 1em;
+    margin-top: 0.67em;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0em;
+}
+
+li {
+    display: flex;
+    align-items: center;
+}
+
+.price {
+    color: hsl(178, 100%, 50%);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+}
+
+.countdown {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    color: hsl(215, 51%, 70%);;
+}
+
+.creator {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+    margin: 0em 0em 0em 0em;
+}
+
+.creator-name {
+    color: white;
+}
+
+.creator-name:hover {
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
+g
+.avatar {
+    width: 2rem;
+    height: auto;
+    border: 0.067em;
+    border-radius: 3.36em;
+    border-color: white;
+    border-style: solid;
+}
+
+.line {
+    color: hsl(215, 32%, 27%);
+    border-width: 0.13em;
+}
