@@ -6,7 +6,12 @@ body {
     display: flex;
     align-items: center;
 }
-
+a {
+    text-decoration: none;
+}
+.screen-reader {
+    display: none;
+}
 .container {
     margin: 0 auto;
 }
@@ -15,13 +20,13 @@ body {
     background-color: hsl(216, 50%, 16%);
     border-radius: 0.600em;
     max-width: 20em;
-    padding: 0.9375em;
+    padding: 1.50em;
 }
 
 .name {
     color: white;
     font-family: 'Outfit', sans-serif;
-    font-weight: 600;
+    font-weight: 400;
     padding: 0em;
     margin-top: 1em;
 }
@@ -45,8 +50,24 @@ body {
     display: block;
     max-width: 100%;
     border-radius: 0.500em;
-}
+   
 
+}
+.img-a {
+    display: block;
+    position: relative;
+    
+}
+.img-a::before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+img-a::after {
+    color: teal;
+    opacity: 0;
+}
 .attribution {
     display: flex;
     gap: 1em;
@@ -70,12 +91,12 @@ li {
 .price {
     color: hsl(178, 100%, 50%);
     font-family: 'Outfit', sans-serif;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .countdown {
     font-family: 'Outfit', sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     color: hsl(215, 51%, 70%);;
 }
 
