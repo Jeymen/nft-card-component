@@ -56,17 +56,6 @@ a {
 .img-a {
     display: block;
     position: relative;
-    
-}
-.img-a::before {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-}
-img-a::after {
-    color: teal;
-    opacity: 0;
 }
 .attribution {
     display: flex;
