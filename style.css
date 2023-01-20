@@ -9,16 +9,14 @@ body {
 a {
     text-decoration: none;
 }
-.screen-reader {
-    display: none;
-}
+
 .container {
     margin: 0 auto;
 }
 
 .card {
     background-color: hsl(216, 50%, 16%);
-    border-radius: 0.600em;
+    border-radius: 1em;
     max-width: 20em;
     padding: 1.50em;
 }
