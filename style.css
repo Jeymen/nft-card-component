@@ -16,9 +16,10 @@ a {
 
 .card {
     background-color: hsl(216, 50%, 16%);
-    border-radius: 1em;
+    border-radius: 1.200em;
     max-width: 20em;
     padding: 1.50em;
+    
 }
 
 .name {
