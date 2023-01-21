@@ -27,6 +27,7 @@ Users should be able to:
 ### Screenshot
 
 ![](./images/Screenshot.png)
+![](./images/Screenshot2.png)
 
 ### Links
 
@@ -41,32 +42,41 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 
-<!-- ### What I learned
+### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.img {
+  border-radius: 0.75em;
+  overflow: hidden;
+  position: relative;
+}
+.img img {
+  width: 100%;
+}
+.img-overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: hsla(178, 100%, 50%, 0.5);
+  display: none;
+}
+.img-overlay img {
+  position: relative;
+  width: 3.125em;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.img:hover .img-overlay {
+  display: block;
 }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
- -->
 
 ### Continued development
 
-I would like to continue building this project and finish soeme things. First thing is I would like to work on the active state of the picture and second I would like to make it mobile responsible.
+I would like to continue building this project and finish soeme things. I would like to make it mobile responsible.
 
 <!-- ### Useful resources
 
@@ -82,3 +92,4 @@ I would like to continue building this project and finish soeme things. First th
 ## Acknowledgments
 
 - [@Grace](https://www.frontendmentor.io/profile/grace-snow)
+- [@Mr Coder](https://www.youtube.com/watch?v=l6sxh57ifSQ)
