@@ -8,13 +8,17 @@
     <title>Frontend Mentor | NFT preview card component</title>
   </head>
   <body>
-
     <main class="container">
       <div class="card">
         <div class="main">
-          <a href="#" class="img-a" aria-label="An image showig quilibrium">
-            <img class="image" src="./images/image-equilibrium.jpg" alt="">
-         </a>
+      <div class="img">
+        <a href="#">
+        <img src="./images/image-equilibrium.jpg" alt="">
+        <div class="img-overlay">
+          <img src="./images/icon-view.svg" alt="">
+        </div>
+      </a>
+      </div>
           <h2 class="name">
             <a href="#" class="name" aria-label="The name.">Equilibrium #3429</a>
           </h2>
@@ -23,7 +27,7 @@
         <div class="information">
           <ul class="list">
             <li class="price">
-            <img src="./images/icon-ethereum.svg" alt="" /> 0.041 ETH
+              <img src="./images/icon-ethereum.svg" alt="" /> 0.041 ETH
             </li>
             <li class="countdown">
               <img src="./images/icon-clock.svg" alt="" /> 3 days left
@@ -33,14 +37,12 @@
         <hr class="line">
         <div class="attribution">
           <img src="/images/image-avatar.png" alt="avatar" class="avatar">
-          <p class="creator">Creation of
-            <a href="#"> 
+          <p class="creator">Creation of <a href="#">
               <span class="creator-name">Jules Wyvern</span>
             </a>
           </p>
         </div>
       </div>
     </main>
-
   </body>
 </html>

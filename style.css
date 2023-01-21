@@ -1,119 +1,119 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
-
-body {
-    background-color: hsl(217, 54%, 11%);
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
+ body {
+     background-color: hsl(217, 54%, 11%);
+     min-height: 100vh;
+     display: flex;
+     align-items: center;
 }
-a {
-    text-decoration: none;
+ a {
+     text-decoration: none;
 }
-
-.container {
-    margin: 0 auto;
+ .container {
+     margin: 0 auto;
 }
-
-.card {
-    background-color: hsl(216, 50%, 16%);
-    border-radius: 1.200em;
-    max-width: 20em;
-    padding: 1.50em;
-    
+ .card {
+     background-color: hsl(216, 50%, 16%);
+     border-radius: 1.200em;
+     max-width: 20em;
+     padding: 1.50em;
 }
-
-.name {
-    color: white;
-    font-family: 'Outfit', sans-serif;
-    font-weight: 400;
-    padding: 0em;
-    margin-top: 1em;
+ .name {
+     color: white;
+     font-family: 'Outfit', sans-serif;
+     font-weight: 400;
+     padding: 0em;
+     margin-top: 1em;
 }
-
-.name:hover {
-    cursor: pointer;
-    color: hsl(178, 100%, 50%);
+ .name:hover {
+     cursor: pointer;
+     color: hsl(178, 100%, 50%);
 }
-
-.description {
-    color: hsl(215, 51%, 70%);
-    font-size: 1.125em;
-    font-weight: 300;
-    font-family: 'Outfit', sans-serif;
-    padding: 0em;
-    margin: 0em;
-    margin-bottom: 1.67em;
+ .description {
+     color: hsl(215, 51%, 70%);
+     font-size: 1.125em;
+     font-weight: 300;
+     font-family: 'Outfit', sans-serif;
+     padding: 0em;
+     margin: 0em;
+     margin-bottom: 1.67em;
 }
-
-.image {
-    display: block;
-    max-width: 100%;
-    border-radius: 0.500em;
-   
-
-}
-.img-a {
-    display: block;
+.img{
+    border-radius: 0.75em;
+    overflow: hidden;
     position: relative;
 }
-.attribution {
-    display: flex;
-    gap: 1em;
-    margin-top: 0.67em;
-    align-items: center;
-    margin-bottom: 1em;
+.img img{
+    width: 100%;
 }
-
-.list {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0em;
+.img-overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: hsla(178, 100%, 50%, 0.5);
+    display: none;
 }
-
-li {
-    display: flex;
-    align-items: center;
+.img-overlay img{
+    position: relative;
+    width: 3.125em;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
 }
-
-.price {
-    color: hsl(178, 100%, 50%);
-    font-family: 'Outfit', sans-serif;
-    font-weight: 600;
+.img:hover .img-overlay{
+    display: block;
 }
-
-.countdown {
-    font-family: 'Outfit', sans-serif;
-    font-weight: 600;
-    color: hsl(215, 51%, 70%);;
+ .attribution {
+     display: flex;
+     gap: 1em;
+     margin-top: 0.67em;
+     align-items: center;
+     margin-bottom: 1em;
 }
-
-.creator {
-    font-family: 'Outfit', sans-serif;
-    font-weight: 300;
-    color: hsl(215, 51%, 70%);
-    margin: 0em 0em 0em 0em;
+ .list {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 0em;
 }
-
-.creator-name {
-    color: white;
+ li {
+     display: flex;
+     align-items: center;
 }
-
-.creator-name:hover {
-    cursor: pointer;
-    color: hsl(178, 100%, 50%);
+ .price {
+     color: hsl(178, 100%, 50%);
+     font-family: 'Outfit', sans-serif;
+     font-weight: 600;
 }
-
-.avatar {
-    width: 2rem;
-    height: auto;
-    border: 0.067em;
-    border-radius: 3.36em;
-    border-color: white;
-    border-style: solid;
+ .countdown {
+     font-family: 'Outfit', sans-serif;
+     font-weight: 600;
+     color: hsl(215, 51%, 70%);
+    ;
 }
-
-.line {
-    color: hsl(215, 32%, 27%);
-    border-width: 0.13em;
+ .creator {
+     font-family: 'Outfit', sans-serif;
+     font-weight: 300;
+     color: hsl(215, 51%, 70%);
+     margin: 0em 0em 0em 0em;
+}
+ .creator-name {
+     color: white;
+}
+ .creator-name:hover {
+     cursor: pointer;
+     color: hsl(178, 100%, 50%);
+}
+ .avatar {
+     width: 2rem;
+     height: auto;
+     border: 0.067em;
+     border-radius: 3.36em;
+     border-color: white;
+     border-style: solid;
+}
+ .line {
+     color: hsl(215, 32%, 27%);
+     border-width: 0.13em;
 }
